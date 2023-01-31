@@ -2,7 +2,7 @@ import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
 
-class {{gamename.pascalCase()}} extends FlameGame {
+class TicTacToe extends FlameGame {
   @override
   Future<void> onLoad() async {
     final defaultRectangle = RectangleComponent(

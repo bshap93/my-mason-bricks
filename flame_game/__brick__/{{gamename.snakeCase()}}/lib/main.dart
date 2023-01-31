@@ -1,5 +1,7 @@
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
+import '{{gamename}}/{{gamename}}.dart';
+
 
 void main() {
   final {{#camelCase}}{{gamename}}{{/camelCase}} = {{gamename.pascalCase()}}();
@@ -7,9 +9,3 @@ void main() {
 }
 
 
-class {{gamename.pascalCase()}} extends FlameGame {
-  @override
-  Future<void> onLoad() async {
-    
-  }
-}
